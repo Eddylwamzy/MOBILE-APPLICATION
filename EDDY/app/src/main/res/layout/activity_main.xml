@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlnstools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/p1"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME:LWAMAZA EDDY"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+         android:gravity="center"
+        android:background="#0091EA"/>
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/eddy"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOBBIES"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:background="#0091EA"/>
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1-Sleeping"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#304FFE"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2-Watching Cartoons"
+        android:textSize="30sp"
+        android:textColor="#304FFE"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3-Swimming"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#304FFE"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4-Riding"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#304FFE"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5-Dancing"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#304FFE"
+        />
+</LinearLayout>
+
